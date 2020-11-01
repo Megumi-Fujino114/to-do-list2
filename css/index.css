@@ -1,0 +1,126 @@
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+h1{
+   background-image: url(../img/haute-stock-photography-opt-in-freebie-3-1000.jpg);
+   color: black;
+   background-size: cover;
+   font-family: cursive;
+   height: 300px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 38px;
+
+}
+
+form {
+	width: 60%;
+	height: 45px;
+	display: flex;
+	margin: 30px auto 20px;
+}
+
+#input{
+	width: 80%;
+	padding: 3px 7px;
+	border: 2px solid #e2d1cb;
+	border-radius: 5px 0 0 5px;
+}
+#btn {
+	width: 20%;
+	padding: 5px;
+	background-color: #d8b9a9;
+	color: white;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+h2{
+	font-size: 30px;
+}
+
+/* 追加されるリストアイテムのCSS */
+.list1 {
+	height: 60px;
+	width: 600px;
+	border: 3px solid #e2d1cb;
+    border-radius: 15px;
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	/* ボタンが追加された時、タス	クの内容とボタンを左右に配置 */
+	justify-content: space-around;
+	/*margin: 20px 350px 0 20px;*/
+	margin: 15px auto 15px 0;
+	
+}
+
+/* 追加されるリストアイテムのDeleteボタン */
+.delete {
+	font-size: 20px;
+	color: #663300;
+	cursor: pointer;
+}
+
+.icon{
+	color: #fccc94;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.icon2,.icon3{
+	color: #848484;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+
+/*@media screen and (max-width: 480px){
+	h1{
+		height: 100px;
+		font-size: 24px;
+	}
+
+	form {
+	width: 60%;
+	height: 35px;
+}
+
+#input{
+	width: 80%;
+}
+#btn {
+	width: 20%;
+}
+
+	.todo-list {
+	border-radius: 5px;
+	font-size: 10px;
+	width: 40%;
+}
+
+.list1 {
+	height: 60px;
+	width: 150px;
+	/* ボタンが追加された時、タスクの内容とボタンを左右に配置 */
+	/*margin: 20px 350px 0 20px;*/
+/*	margin: 10px auto 10px 0;
+	
+}
+
+.delete {
+	font-size: 15px;
+}*/
+
+
+
+
